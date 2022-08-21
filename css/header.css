@@ -1,0 +1,34 @@
+.header {
+    padding: 146px 0 50px;
+}
+
+.header__container {
+    min-height: 823px;
+    position: relative;
+}
+
+.header__container:after {
+    content: url(../image/nigger.png);
+    width: 675px;
+    height: 762px;
+    position: absolute;
+    left: 505px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.page__main-title {
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 100%;
+    letter-spacing: -0.1em;
+    text-transform: uppercase;
+    z-index: 0;
+}
+
+.page__subtitle {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 50px;
+    margin: 10px 0 0 110px;
+}

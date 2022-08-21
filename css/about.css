@@ -1,0 +1,82 @@
+.about__content {
+    display: flex;
+}
+
+.about__image {
+    width: 600px;
+    height: 596px;
+    margin-right: 80px;
+}
+
+.about__text {
+    margin-bottom: 78px;
+}
+
+.about__paragraph:not(:last-child) {
+    margin-bottom: 1.4em;
+}
+
+.about__blockquote {
+    padding-left: 40px;
+}
+
+.blockquote__quote {
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 50px;
+}
+
+.about__blockquote:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.blockquote__text {
+    margin-top: 0;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.blockquote__quote:before {
+    content: url(../image/icons/quote.png);
+    position: absolute;
+    top: -15px;
+    left: -40px;
+}
+
+.blockquote__quote:after {
+    content: url(../image/icons/quote.png);
+    position: absolute;
+    transform: rotate(180deg);
+    top: 48px;
+    right: 60px;
+}
+
+.blockquote__line {
+    display: block;
+}
+
+.blockquote__cite {
+    position: relative;
+    max-width: 260px;
+    float: right;
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.blockquote__cite:before {
+    content: "";
+    background: no-repeat top/cover url('../image/about/orcadiy.jpg');
+    position: absolute;
+    top: 0;
+    right: 290px;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+}

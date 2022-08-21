@@ -1,0 +1,42 @@
+.feedback__item {
+    margin-bottom: 50px;
+}
+
+.feedback__item:last-child {
+    margin-bottom: 0;
+}
+
+.review {
+    display: flex;
+}
+
+.review__author {
+    text-align: center;
+}
+
+.review__author:before {
+    content: "";
+    display: inline-block;
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 11px;
+    margin-right: 20px;
+}
+
+.review__author--max:before {
+    background: no-repeat top/cover url('../image/feedback/max.jfif');
+}
+
+.review__author--oksana:before {
+    background: no-repeat top/cover url('../image/feedback/oksana.jfif');
+}
+
+.review__author--nikita:before {
+    background: no-repeat top/cover url('../image/feedback/nikita.jfif');
+}
+
+.review__text {
+    padding-top: 50px;
+}

@@ -1,0 +1,99 @@
+.footer {
+    padding: 50px 0 51px;
+}
+
+.navigation__link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navigation:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.address {
+    margin-bottom: 39px;
+}
+
+.address__item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.address__item--location {
+    margin: 0 0 38px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.address__line {
+    display: block;
+}
+
+.address__item--location,
+.address__item--phone,
+.address__item--email {
+    position: relative;
+    padding-left: 65.55px;
+}
+
+.address__item--location:before {
+    content: url(../image/icons/location.svg);
+    position: absolute;
+    top: 0.5em;
+    left: 0;
+}
+
+.address__item--phone {
+    margin-bottom: 11px;
+}
+
+.address__item--phone:before {
+    content: url(../image/icons/phone-call.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.address__item--email:before {
+    content: url(../image/icons/envelope.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navigation__item {
+    float: left;
+    margin-right: 26px;
+}
+
+.navigation__link {
+    height: 50px;
+    width: 50px;
+    outline: 1px solid transparent;
+    outline-offset: 3px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 1rem;
+    transition-property: color, outline-color;
+    transition-duration: 0.3s, 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.navigation__link:hover {
+    color: #CD06FF;
+}
+
+.navigation__link:active {
+    color: #840Aa3;
+}
+
+.navigation__link:focus {
+    outline-color: #CD06FF;
+}
