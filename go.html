@@ -12,8 +12,45 @@
 <body class="page">
     <header class="header">
         <div class="container header__container">
+            <div class="main-menu">
+                <a href="#">
+                    <img src="image/icons/logo.svg" alt="Логотип игрового пространства Game Over"
+                        class="main-menu__logo">
+                </a>
+                <ul class="main-menu__list">
+                    <li class="main-menu__item">
+                        <a href="#halls">Залы</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#about">О нас</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#reserve">Бронь</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#feedback">Отзывы</a>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="#contacts">Контакты</a>
+                    </li>
+                </ul>
+                <button class="call-request">Заказать звонок</button>
+            </div>
             <h1 class="page__main-title">Game Over</h1>
             <p class="page__subtitle">Новый формат игр и отдыха</p>
+            <div class="teaser">
+                <div class="teaser__description">
+                    <p class="teaser__item">
+                        <span class="teaser__row teaser__row--large-number">4</span>
+                        <span class="teaser__row teaser__row--small">Тематических зала</span>
+                    </p>
+                    <p class="teaser__item">
+                        <span class="teaser__row teaser__row--large-text">New</span>
+                        <span class="teaser__row teaser__row--small">Новейшая аппаратура</span>
+                    </p>
+                </div>
+                <button class="reserve-button">Забронировать</button>
+            </div>
         </div>
     </header>
 
@@ -180,7 +217,7 @@
             </div>
         </section>
 
-        <section class="section feedback">
+        <section class="section feedback" id="feedback">
             <div class="container">
                 <h2>Отзывы посетителей</h2>
                 <ul class="feedback__list">

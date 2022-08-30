@@ -1,10 +1,45 @@
 .header {
-    padding: 146px 0 50px;
+    padding-bottom: 50px;
 }
 
 .header__container {
-    min-height: 823px;
+    min-height: 969px;
     position: relative;
+}
+
+.main-menu {
+    height: 126px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-menu__list {
+    min-width: 587px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-menu__item {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.call-request {
+    min-width: 280px;
+    height: 55px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    background-color: #1B1A1B;
+    border: 3px solid #CD06FF;
+    border-radius: 10px;
 }
 
 .header__container:after {
@@ -30,5 +65,64 @@
     font-weight: 400;
     font-size: 28px;
     line-height: 50px;
-    margin: 10px 0 0 110px;
+    margin: 0 0 30px 100px;
+}
+
+.teaser {
+    max-width: 400px;
+    min-height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.teaser__description {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: auto;
+    column-gap: 43px;
+}
+
+.teaser__item {
+    text-align: center;
+}
+
+.teaser__row {
+    display: inline-block;
+}
+
+.teaser__row--large-number {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 141px;
+    color: #CD06FF;
+    text-transform: uppercase;
+}
+
+.teaser__row--large-text {
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 106px;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    color: #CD06FF;
+}
+
+.teaser__row--small {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+.reserve-button {
+    background: #6C0287;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFF;
+    text-transform: uppercase;
+    padding: 25px 69px;
+    border: none;
+    box-shadow: 0 0 20px #6C0287;
 }
