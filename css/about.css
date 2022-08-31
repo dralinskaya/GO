@@ -51,8 +51,8 @@
     content: url(../image/icons/quote.png);
     position: absolute;
     transform: rotate(180deg);
-    top: 48px;
-    right: 60px;
+    top: 148px;
+    right: 90px;
 }
 
 .blockquote__line {

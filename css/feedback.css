@@ -34,7 +34,7 @@
 }
 
 .review__author--nikita:before {
-    background: no-repeat top/cover url('../image/feedback/nikita.jfif');
+    background: no-repeat center/cover url('../image/feedback/nikita.jfif');
 }
 
 .review__text {
